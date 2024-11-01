@@ -40,7 +40,7 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
         }
         else {
-            Debug.log("PERsonagem no chao");
+            // Debug.log("PERsonagem no chao");
         }
     }
 }
