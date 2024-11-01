@@ -27,7 +27,8 @@ Para rodar **BreadQuest** no seu ambiente local:
 ## 🎮 Controles
 - **Setas direcionais**: Movimentar
 - **Espaço**: Pular
-- **Shift**: Correr (opcional)
+- **Q**: Dash
+- **Shift**: Correr 
 
 ## 🤝 Contribuição
 Contribuições são bem-vindas! Se você tiver alguma ideia ou sugestão, abra uma **issue** ou faça um **pull request**.
