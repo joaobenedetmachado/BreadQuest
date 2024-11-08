@@ -1,0 +1,68 @@
+# Sistema
+[Dd]ebug/
+[Tt]emp/
+[Ll]ogs/
+[Ss]ysinfo/
+[Aa]ssets/Plugins/Android/*/R.txt
+
+# Unity Asset Database
+[Ll]ibrary/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ost[Dd]ir/
+[Mm]emoryCaptures/
+[Tt]humbnails/
+
+# Visual Studio
+.vscode/
+.vs/
+*.csproj
+*.sln
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+
+# Builds
+[Bb]uilds/
+*.apk
+*.aab
+*.ipa
+*.app
+*.exe
+*.dll
+*.ilk
+*.log
+*.meta
+*.obj
+
+# TextMeshPro
+[Tt]extMesh Pro/
+
+# Outros arquivos temporários e caches
+[Dd]umped_logs/
+**/*.tmp
+*.bak
+*.swp
+*.tmp
+*.unitypackage
+
+# Dados do Unity Collaborate
+/[Uu]ser[Ss]ettings/
+
+# Para excluir o conteúdo de pacotes específicos do Unity
+Packages/com.unity.*
+
+# VS Code
+.history/
+.vscode/
+
+# Rider
+.idea/
+*.csproj.user
+.idea/
