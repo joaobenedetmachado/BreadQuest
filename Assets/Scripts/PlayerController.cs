@@ -16,7 +16,14 @@ public class PlayerController : MonoBehaviour
     private float dashDirection;
 
     public GameObject circle;
-    private Rigidbody2D circleRb; 
+    private Rigidbody2D circleRb;
+
+    AudioManager audioManager;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio").GetComponent<AudioManager>();
+    }
 
     void Start()
     {
@@ -54,6 +61,8 @@ public class PlayerController : MonoBehaviour
         {
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             isGrounded = false;
+            audioManager.PlaySFX(audioManager.jump);
+            
         }
     }
 
@@ -85,6 +94,7 @@ public class PlayerController : MonoBehaviour
         if (collision.gameObject.CompareTag("Ground"))
         {
             isGrounded = true;
+            audioManager.PlaySFX(audioManager.walk);
         }
     }
 
