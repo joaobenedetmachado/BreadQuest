@@ -3,7 +3,6 @@
 [Tt]emp/
 [Ll]ogs/
 [Ss]ysinfo/
-[Aa]ssets/Plugins/Android/*/R.txt
 
 # Unity Asset Database
 [Ll]ost[Dd]ir/
@@ -13,14 +12,11 @@
 # Visual Studio
 .vscode/
 .vs/
-*.csproj
-*.sln
 *.suo
 *.tmp
 *.user
 *.userprefs
 *.pidb
-*.booproj
 *.svd
 *.pdb
 
@@ -45,11 +41,8 @@
 *.tmp
 *.unitypackage
 
-# Dados do Unity Collaborate
-/[Uu]ser[Ss]ettings/
 
 # Para excluir o conteúdo de pacotes específicos do Unity
-Packages/com.unity.*
 
 # VS Code
 .history/
