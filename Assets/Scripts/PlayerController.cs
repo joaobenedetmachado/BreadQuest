@@ -131,6 +131,7 @@ void OnTriggerEnter2D(Collider2D collider)
         if (circle != null)
         {
             circle.transform.position = new Vector2(17.5f, 20f);
+            circleRb.isKinematic = true;
             Debug.Log("Posição do Circle resetada para (17.5, 20).");
         }
     }
