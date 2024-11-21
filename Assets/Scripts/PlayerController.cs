@@ -62,7 +62,6 @@ public class PlayerController : MonoBehaviour
             rb.AddForce(new Vector2(0f, jumpForce), ForceMode2D.Impulse);
             isGrounded = false;
             audioManager.PlaySFX(audioManager.jump);
-            
         }
     }
 
@@ -77,7 +76,8 @@ public class PlayerController : MonoBehaviour
 
             canDash = false;
             isDashing = true;
-            lastDashTime = Time.time;
+            float time = Time.time;
+            lastDashTime = time;
 
             Invoke("EndDash", dashDuration);
         }
@@ -110,13 +110,19 @@ public class PlayerController : MonoBehaviour
     {
         if (collider.CompareTag("Obs1"))
         {
-            Debug.Log("Você entrou na área do Obs1!");
+            Debug.Log("VocÃª entrou na Ã¡rea do Obs1!");
 
             if (circleRb != null)
             {
-                circleRb.isKinematic = false; 
+                circleRb.isKinematic = false;
                 Debug.Log("Rigidbody2D do Circle ativado!");
             }
+        }
+// O OBJETO DO ESPINHO TEM Q TER UM COLLIDER E IS TRIGGER ATIVADO NO COLLIDER!!!!, LEMBRAR DE COLOCAR O OBJETO DO METEORO QUE VAI CAIR E TAL
+        if (collider.CompareTag("die"))
+        {
+            Debug.Log("Player colidiu com um objeto 'Die'. Reposicionando...");
+            transform.position = new Vector2(0, 2); // Reposiciona o jogador para o inicio do jogo
         }
     }
 }
