@@ -6,10 +6,6 @@
 [Aa]ssets/Plugins/Android/*/R.txt
 
 # Unity Asset Database
-[Ll]ibrary/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
 [Ll]ost[Dd]ir/
 [Mm]emoryCaptures/
 [Tt]humbnails/
@@ -29,7 +25,6 @@
 *.pdb
 
 # Builds
-[Bb]uilds/
 *.apk
 *.aab
 *.ipa
@@ -38,8 +33,6 @@
 *.dll
 *.ilk
 *.log
-*.meta
-*.obj
 
 # TextMeshPro
 [Tt]extMesh Pro/
