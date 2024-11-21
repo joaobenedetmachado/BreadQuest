@@ -106,23 +106,34 @@ public class PlayerController : MonoBehaviour
         }
     }
 
-    void OnTriggerEnter2D(Collider2D collider)
+void OnTriggerEnter2D(Collider2D collider)
+{
+    if (collider.CompareTag("Obs1"))
     {
-        if (collider.CompareTag("Obs1"))
-        {
-            Debug.Log("Você entrou na área do Obs1!");
+        Debug.Log("Você entrou na área do Obs1!");
 
-            if (circleRb != null)
-            {
-                circleRb.isKinematic = false;
-                Debug.Log("Rigidbody2D do Circle ativado!");
-            }
-        }
-// O OBJETO DO ESPINHO TEM Q TER UM COLLIDER E IS TRIGGER ATIVADO NO COLLIDER!!!!, LEMBRAR DE COLOCAR O OBJETO DO METEORO QUE VAI CAIR E TAL
-        if (collider.CompareTag("die"))
+        if (circleRb != null)
         {
-            Debug.Log("Player colidiu com um objeto 'Die'. Reposicionando...");
-            transform.position = new Vector2(0, 2); // Reposiciona o jogador para o inicio do jogo
+            circleRb.isKinematic = false;  // Ativa a física do círculo
+            Debug.Log("Rigidbody2D do Circle ativado!");
         }
     }
+
+    // Se o jogador colidir com a tag 'die', reposiciona o jogador para o início e também reposiciona a bola
+    if (collider.CompareTag("die"))
+    {
+        Debug.Log("Player colidiu com um objeto 'Die'. Reposicionando...");
+
+        // Reposiciona o jogador para o ponto inicial (x = 0, y = 2)
+        transform.position = new Vector2(0, 2);
+
+        // Reposiciona a bola para o ponto (x = 17.5, y = 20)
+        if (circle != null)
+        {
+            circle.transform.position = new Vector2(17.5f, 20f);
+            Debug.Log("Posição do Circle resetada para (17.5, 20).");
+        }
+    }
+}
+
 }
