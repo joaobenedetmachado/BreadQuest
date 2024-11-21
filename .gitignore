@@ -1,11 +1,11 @@
 # Unity 2D Project .gitignore
 
 # Various Unity-specific directories and files
-[Ll]ibrary/
-[Tt]emp/
-[Oo]bj/
-[Bb]uild/
-[Bb]uilds/
+![Ll]ibrary/
+![Tt]emp/
+![Oo]bj/
+![Bb]uild/
+![Bb]uilds/
 [Ll]ogs/
 [Uu]serSettings/
 
