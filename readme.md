@@ -4,6 +4,20 @@
 
 ---
 
+
+## 📜 **Menu de Navegação**  
+- [🌟 Visão Geral](#-visão-geral)  
+- [🎮 Detalhes do Jogo](#-detalhes-do-jogo)  
+- [🗻 Objetivo](#-objetivo)  
+- [🔑 Principais Mecânicas](#-principais-mecânicas)  
+- [🧩 Referências](#-referências)  
+- [🎭 História](#-história)  
+- [🚀 Destaques da Gameplay](#-destaques-da-gameplay)  
+- [⚔️ Elementos do Jogo](#️-elementos-do-jogo)  
+- [💻 Como Instalar](#-como-instalar)  
+
+---
+
 ## 🌟 **Visão Geral**  
 **BreadQuest** é um jogo de aventura e escalada desenvolvido na Unity, onde o jogador ajuda Leo a superar uma montanha cheia de obstáculos para garantir seu pão de cada dia. Uma experiência desafiadora e divertida baseada na paciência e habilidade do jogador.
 
