@@ -7,6 +7,10 @@ TagManager:
   - Ground
   - Obs1
   - Audio
+  - die
+  - Obs2
+  - escada
+  - fim
   layers:
   - Default
   - TransparentFX
@@ -41,6 +45,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: Background
+    uniqueID: 3645556527
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Objetos
+    uniqueID: 282598903
     locked: 0

@@ -4,7 +4,7 @@ public class CameraFollow : MonoBehaviour
 {
     public Transform target;  // Objeto que a câmera segue (personagem)
     public Vector3 offset = new Vector3(0, 2, -10);  // Ajuste o Z para uma posição negativa
-    public float smoothSpeed = 0.125f;  // Suavização da câmera
+    public float smoothSpeed = 1.0f;  // Suavização da câmera
 
     void LateUpdate()
     {
