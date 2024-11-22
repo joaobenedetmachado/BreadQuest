@@ -13,7 +13,7 @@
 - **Gênero:** Plataforma  
 - **Plataforma:** PC  
 - **Controles:**  
-  - **Movimentação:** `WASD` ou **Setas**  
+  - **Movimentação:** `WASD`
   - **Corrida:** `Shift`  
   - **Dash:** `Q`  
   - **Pulo:** `Espaço`  
