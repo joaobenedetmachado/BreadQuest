@@ -1,30 +1,79 @@
-# BreadQuest 🍞🎮  
-**BreadQuest** é um jogo envolvente onde você assume o papel de um aventureiro em busca do pão perfeito. Combina exploração, puzzles e desafios emocionantes, tudo em um mundo onde o pão é o maior tesouro!  
-
-## Sumário  
-- [Sobre o Jogo](#sobre-o-jogo)  
-- [Recursos Principais](#recursos-principais)  
-- [Instalação](#instalação)  
-- [Como Jogar](#como-jogar)  
-- [Contribuindo](#contribuindo)  
-- [Licença](#licença)  
+# 🥖 **BreadQuest**  
+**Versão:** 1.0  
+**Autores:** Augusto Z. Vitali, João Victor B. Machado e Marcus Vinicius M. Zanin  
 
 ---
 
-## Sobre o Jogo  
-Em **BreadQuest**, você explorará um mundo mágico recheado de ingredientes lendários e receitas antigas. Enfrente inimigos como o *Carb Overlord*, resolva puzzles no *Vale do Glúten* e conquiste o coração de um reino faminto ao criar o pão mais delicioso de todos os tempos.  
+## 🌟 **Visão Geral**  
+**BreadQuest** é um jogo de aventura e escalada desenvolvido na Unity, onde o jogador ajuda Leo a superar uma montanha cheia de obstáculos para garantir seu pão de cada dia. Uma experiência desafiadora e divertida baseada na paciência e habilidade do jogador.
 
 ---
 
-## Recursos Principais  
-- 🌍 **Mundo Imersivo**: Explore um vasto universo com áreas únicas e cheias de segredos.  
-- 🧩 **Puzzles Desafiadores**: Resolva enigmas criativos para avançar na sua jornada.  
-- ⚔️ **Batalhas Épicas**: Lute contra inimigos hilários, como o *Carb Overlord*.  
-- 🍞 **Receitas Únicas**: Colete ingredientes e crie o pão lendário que todos desejam.  
+## 🎮 **Detalhes do Jogo**  
+- **Gênero:** Plataforma  
+- **Plataforma:** PC  
+- **Controles:**  
+  - **Movimentação:** `WASD` ou **Setas**  
+  - **Corrida:** `Shift`  
+  - **Dash:** `Q`  
+  - **Pulo:** `Espaço`  
 
 ---
 
-## Instalação  
-1. Clone o repositório:  
+## 🗻 **Objetivo**  
+Ajude Leo a:  
+1. Escalar a montanha.  
+2. Superar obstáculos traiçoeiros.  
+3. Chegar ao topo e salvar o pão antes de segunda-feira!  
+
+---
+
+## 🔑 **Principais Mecânicas**  
+- Movimentação precisa em 8 direções.  
+- **Dash** e **Pulo** para superar desafios.  
+- Sem checkpoints – teste sua paciência e habilidade!  
+
+---
+
+## 🧩 **Referências**  
+Inspirado em:  
+- *Getting Over It with Bennett Foddy*  
+- *Celeste*  
+
+---
+
+## 🎭 **História**  
+Leo, um jovem trabalhador, precisa atravessar uma montanha para levar o pão para casa. Caso contrário, perderá o emprego! Humor e desafios se misturam nesta jornada épica.
+
+---
+
+## 🚀 **Destaques da Gameplay**  
+- Ritmo constante e desafiador.  
+- Progressão baseada em tentativa e erro.  
+- Padrões e física que testam reflexos e estratégia.  
+
+---
+
+## ⚔️ **Elementos do Jogo**  
+### Personagens  
+- **Leo**: O protagonista que precisa correr contra o tempo para salvar o pão.  
+
+### ☄️ Obstáculos  
+- **Bola de Pedra**: Ameaça física mortal.  
+- **Meteoro**: Obstáculo com trajetória fixa.  
+- **Espinhos**: Sempre prontos para punir seus erros.  
+
+### Itens  
+- **Pão**: O prêmio final – sagrado e merecido!  
+
+---
+
+## 💻 **Como Instalar**  
+1. Certifique-se de ter o **Git** instalado no seu sistema.  
+2. Clone o repositório:  
    ```bash
    git clone https://github.com/seu-usuario/breadquest.git
+
+---
+
+**🍞 Boa sorte, aventureiro! Que o pão esteja com você!**
